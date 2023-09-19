@@ -10,6 +10,7 @@ import Register from "./components/pages/register";
 import Login from "./components/pages/login";
 import Checkout from "./components/pages/checkout";
 import SlideMenu from "./components/slide/slide";
+import Buy from "./components/pages/pesenan-anda"
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
-        
+        <Route path="/pesanan" element={<Buy />}/>
         <Route path="/login" element={<Login />} />
         <Route path="/keranjang" element={<Checkout />} />
       </Routes>

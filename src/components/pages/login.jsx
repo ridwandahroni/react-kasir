@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../layouts/Footer";
 
 function Login() {
+    
     return (
       <>
 
@@ -17,7 +18,7 @@ function Login() {
                   <input type="text" placeholder="Username or email" className="w-full bg-slate-100 text-black p-3 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-1 focus:border-blue-500 mb-2" />
                   <input type="password" placeholder="Password" className="w-full bg-slate-100 font-sans text-black p-3 rounded-md focus:outline-none focus:ring-blue-500  focus:ring-1 focus:border-blue-500  mb-3"/>
                   
-                  <button type="button" className="text-base font-semibold text-white bg-blue-400 py-3 px-8 rounded-md w-full shadow-sm mb-5  ">Masuk</button>
+                  <button type="button" className="text-base font-semibold text-white bg-blue-400 py-3 px-8 rounded-md w-full shadow-sm mb-5  "> <Link to='/' className="text-white font-bold">Masuk</Link></button>
                   
                   <a href="#" className="text-center text-lg mb-5 text-slate-400">Lupa Password?</a>
               </div>
